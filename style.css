@@ -1,0 +1,16 @@
+﻿body::before {
+    display:block;
+    content: '';
+    height: 40px;
+}
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 40%;
+    }
+}
+
+.accordion-button {
+    font-size: 20px;
+    color: #808080 !important;
+}
